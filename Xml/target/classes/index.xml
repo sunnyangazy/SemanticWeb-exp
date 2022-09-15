@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <courses>
-<course name="操作系统">
-        <teacher>王五</teacher>
-        <room>三教214</room>
-        <publication>《操作系统》</publication>
+<course name="数据结构">
+        <teacher>李四</teacher>
+        <room>东教112</room>
+        <publication>《数据结构(C++版)》</publication>
     </course>
 </courses>

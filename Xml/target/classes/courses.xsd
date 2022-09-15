@@ -12,7 +12,7 @@
 
     <xs:complexType name="courseinfo">
         <xs:sequence>
-            <xs:element name="teacher" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="lecturer" type="xs:string" maxOccurs="1" minOccurs="1"/>
             <xs:element name="room" type="xs:string" maxOccurs="1" minOccurs="1"/>
             <xs:element name="publication" type="xs:string" maxOccurs="1" minOccurs="0"/>
         </xs:sequence>

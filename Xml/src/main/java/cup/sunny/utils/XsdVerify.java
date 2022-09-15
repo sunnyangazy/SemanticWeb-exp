@@ -52,16 +52,13 @@ public class XsdVerify {
                 int count = 0;
                 String result = "";
                 for (Node node : list) {
-                    String error = node.getText().split(":")[1];
-                    if (error.contains("元素") && error.contains("无效")) {
-                        count++;
-                        result += error + "\n";
-                    }
+                    count++;
+                    System.err.println(node.getText());
                 }
                 System.err.println("共有" + count + "处错误");
                 System.err.println(result);
             } else {
-                System.err.println("Good! XML文件通过XSD文件校验成功！");
+                System.err.println("XML文件通过XSD文件校验正确！");
             }
         } catch (Exception ex) {
             System.err.println("XML文件: " + xmlFileName + " 通过XSD文件:" + xsdFileName + "检验失败。\n原因： " + ex.getMessage());

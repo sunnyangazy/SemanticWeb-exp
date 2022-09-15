@@ -14,7 +14,7 @@
                     <xsl:for-each select="courses/course">
                         <tr>
                             <td><xsl:value-of select="@name"/></td>
-                            <td><xsl:value-of select="teacher"/></td>
+                            <td><xsl:value-of select="lecturer"/></td>
                             <td><xsl:value-of select="room"/></td>
                             <td><xsl:value-of select="publication"/></td>
                         </tr>
